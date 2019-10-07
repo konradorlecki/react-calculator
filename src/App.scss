@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.App{
+  position: absolute;
+  top:25%;
+  left:43%;
+  >div:first-of-type{
+    width: 240px;
+    height: 80px;
+    font-size: 1.5rem;
+    background-color: #737373;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    >p:first-of-type{
+      padding-top:3%;
+    }
+    >p:last-of-type{
+      padding-top:4%;
+      font-size:1.4rem;
+    }
+  }
+  button{
+    width:60px;
+    height:60px;
+  }
+  button:last-of-type{
+    background-color: orange;
+  }
+  button:nth-of-type(1){
+    color:orangered;
+  }
+  button:nth-of-type(2){
+    color:blue;
+  }
+  button:nth-of-type(3){
+    color:blue;
+  }
+  button:nth-of-type(4){
+    color:blue;
+  }
+  button:nth-of-type(8){
+    color:blue;
+  }
+  button:nth-of-type(12){
+    color:blue;
+  }
+  button:nth-of-type(16){
+    color:blue;
+  }
+
+
+}
